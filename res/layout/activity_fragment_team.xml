@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fragment_team"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.com.example.android.firebase.Fragment_team">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Co-ordinators"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aman Singh Chauhan"
+        android:layout_below="@id/text1"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ritika Srivastava"
+        android:layout_below="@id/text2"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:text="General Secretary"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:text=" Rishabh khemka"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Treasurer"
+        android:layout_below="@id/text5"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text6"
+        android:text="Ayushman"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text7"
+        android:text="Cultural Co-ordinators"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vrati Singh"
+        android:layout_below="@id/text8"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text9"
+        android:text="Himanshu kumar"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sharad Kumar"
+        android:layout_below="@id/text10"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technical Co-ordinators"
+        android:layout_below="@id/text11"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achint chauhan"
+        android:layout_below="@id/text12"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ankita Sharma"
+        android:layout_below="@id/text13"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text15"
+        android:layout_below="@id/text14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Literary Co-ordinators"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text16"
+        android:layout_below="@id/text15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shyam Sundar Tiwari"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text17"
+        android:layout_below="@id/text16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prachi Jain"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text18"
+        android:layout_below="@id/text17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informal Co-ordinators"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text19"
+        android:layout_below="@id/text18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manuj Gupta"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text20"
+        android:layout_below="@id/text19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pratiksha Anand"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text21"
+        android:layout_below="@id/text20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promotion Co-ordinators"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text22"
+        android:layout_below="@id/text21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashwani Sharma "
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text23"
+        android:layout_below="@id/text22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swarnim Shishir"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text24"
+        android:layout_below="@id/text23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sponshorship Co-ordinators"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text25"
+        android:layout_below="@id/text24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aman Mishra"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text26"
+        android:layout_below="@id/text25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ankit Gahrana"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text27"
+        android:layout_below="@id/text26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Co Coordinators"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text28"
+        android:layout_below="@id/text27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anil Kumar Sahu"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text29"
+        android:layout_below="@id/text28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apoorva Bansal"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text30"
+        android:layout_below="@id/text29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohit Jauhari"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text31"
+        android:layout_below="@id/text30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rohit Maurya"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text32"
+        android:layout_below="@id/text31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swapnil Bansal"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text33"
+        android:layout_below="@id/text32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kamar Nisa"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text34"
+        android:layout_below="@id/text33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tushar Verma"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text35"
+        android:layout_below="@id/text34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anusurya Shri"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text36"
+        android:layout_below="@id/text35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mayank Kumar"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text37"
+        android:layout_below="@id/text36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harshvardhan Singh"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
